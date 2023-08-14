@@ -4,6 +4,14 @@
 #include <ctype.h>
 #include <locale.h>
 
+float mult(float a, float b){
+    float c; 
+    c = a*b; 
+    return c; 
+}
+
+
+
 int main()
 {
     system("cls");
@@ -31,4 +39,6 @@ int main()
             break;
         }
     } while (opcao != 0 && opcao != 2);
+
+    
 }
